@@ -1,0 +1,22 @@
+<?php  
+if(strlen($bmk)==1)
+{
+	$bmk="00000".$bmk;
+}
+elseif(strlen($bmk)==2)
+{
+	$bmk="0000".$bmk;
+}
+elseif(strlen($bmk)==3)
+{
+	$bmk="000".$bmk;
+}
+elseif(strlen($bmk)==4)
+{
+	$bmk="00".$bmk;
+}
+elseif(strlen($bmk)==5)
+{
+	$bmk="0".$bmk;
+}
+?>
